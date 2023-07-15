@@ -57,7 +57,9 @@ npm test
 - Если шаг deploy успешен - происходит обновление записи в реестре релизов
 - Закрытие issue
 
-# создать тег и запушить
-git tag v107 && git push origin --tags
-
-Пример 
+Создать пару тестовых комитов
+```sh
+ # создать тег и запушить
+ git tag v107 && git push origin --tags
+```
+[пример записи в реестре ](/.github/workflows/quality.yml)
