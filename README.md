@@ -62,4 +62,4 @@ npm test
  # создать тег и запушить
  git tag v107 && git push origin --tags
 ```
-[пример записи в реестре ](/.github/workflows/quality.yml)
+[пример записи в реестре](https://github.com/illicit-oblivion/unit-demo-cra/issues/66)
