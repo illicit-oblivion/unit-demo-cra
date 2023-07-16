@@ -31,18 +31,20 @@ npm run e2e
 npm test
 ```
 
+ВЫПОЛНЕНИЕ ДЗ:
 1. Настройка линтера для соответствия сообщений о коммитах формату conventional commits
 
    (cделана при помощи commitlint и husky)
 
 
     feat: wip - верно
+    
     аsdasd - неверно
     
 Попробуйте закомитить двумя разными способами для проверки работы. 
 
 2. Автоматический запуск проверок в CI для пулл реквестов
- Запускаются e2e тесты + автотесты + линтер - [quality.yml](/.github/workflows/quality.yml)
+ Запускаются e2e тесты + модульные тесты + линтер - [quality.yml](/.github/workflows/quality.yml)
 
     [Pr со сломанными тестами (ограничен для мержа)](https://github.com/illicit-oblivion/unit-demo-cra/pull/63)
 
